@@ -1,16 +1,101 @@
-*{
-  background-attachment: fixed;
+* {
+  box-sizing: border-box;
 }
-body{
-  margin: 0;
-  background-color: rgb(238, 238, 238);
+
+body {
+  font-family: 'Staatliches', cursive;
+  font-size: 20px;
+  background-image: url(./assts/bnfkbz.jpg);
+  background-size: 2000px;
+  color: rgb(0, 0, 0);
 }
-div{
-  width: 800px;
-  height: 400px;
-  background-color: white;
-  margin: 0;
+
+h1 {
+  text-shadow: 5px 5px rgb(246, 255, 71);
+  margin-left: 450px;
 }
-h1{
-  font-size: 20.6px;
+.h11{
+  margin-left: 350;
+}
+.container { 
+  max-width: 980px;
+  margin: 0 auto;
+}
+.row { 
+  display: flex;
+  flex-wrap: wrap;
+}
+[class^="col"] {
+  padding: 0 10px;
+}
+.col-1 {
+  flex: 8.3% 0 0;
+}
+.col-2 {
+  flex: 16.6% 0 0;
+}
+.col-3 {
+  flex: 25% 0 0;
+}
+.col-4 {
+  flex: 33.3% 0 0;
+}
+.col-5 {
+  flex: 41.6% 0 0;
+}
+.col-6 {
+  flex: 50% 0 0;
+}
+.col-7 {
+  flex: 58.3% 0 0;
+}
+.col-8 {
+  flex: 66.6% 0 0;
+}
+.col-9 {
+  flex: 75% 0 0;
+}
+.col-10 {
+  flex: 83% 0 0;
+}
+.col-11 {
+  flex: 91.6% 0 0;
+}
+.col-12 {
+  flex: 100% 0 0;
+}
+
+.card {
+  background-color: rgb(255, 255, 255);
+  border: 4px solid rgb(27, 244, 23);
+  box-shadow: 5px 5px 0 0 rgba(254, 247, 50, 0.919);
+  transition: all 600ms ease-in;
+  margin-bottom: 15px;
+  background-repeat: no-repeat ;
+  
+}
+.card:hover {
+  transform: rotate(0deg) scale(1.30);
+}
+.card .card-image {
+  width: 100%;
+}
+.card .card-content {
+  padding: 10px 15px;
+}
+.card.card-horizonal {
+  display: flex;
+}
+.card.card-horizonal .card-image {
+  width: 30%;
+}
+.card-image2{
+width: 62%;
+}
+hr{
+  height: 20px;
+}
+.cars-content {
+  padding: 10px 15px;
+  background-image: url(./assts/Рим.jpg) ;
 }
